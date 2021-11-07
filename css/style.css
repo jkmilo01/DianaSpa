@@ -29,7 +29,21 @@
     left: 0;
     width: 100%;
   }
+  @media (max-width: 700.98px) {
+    .videobg {
+        position: relative;
+        width: 700px;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+    }
+
   
+
+}
   .color-overlay {
     position: absolute;
     top: 0;
@@ -79,7 +93,7 @@ Note:
 Licence under Creative Commons Attribution 3.0 
 -------------------------------------------------------*/
 
-@charset "utf-8";
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600);
 
@@ -446,7 +460,7 @@ p {
 }
 
 .navStyle ul li:first-child {
-	/*margin:0px;*/;
+	/*margin:0px;*/
 }
 
 .navStyle ul li:last-child {
