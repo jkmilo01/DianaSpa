@@ -31,8 +31,7 @@
   }
   @media (max-width: 767px) {
     .videobg {
-        
-        width: 100%;
+        width:auto;
         height: 90vh;
         display: flex;
         align-items: center;
