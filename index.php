@@ -57,7 +57,7 @@
       <div class="video-container">
           <div class="color-overlay"></div>
           <video autoplay loop muted>
-              <source src="video/pexels-ron-lach-7582843.mp4" type="video/mp4">
+              <source src="Video/pexels-ron-lach-7582843.mp4" type="video/mp4">
           </video>
       </div>
   
