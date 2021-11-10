@@ -34,7 +34,7 @@
         </div>
 	    <div id="main-nav" class="collapse navbar-collapse navStyle">
 			<ul class="nav navbar-nav" id="mainNav">
-			  <li class="active"><a href="#carousel" class="scroll-link">Home</a></li>
+			  <li class="active"><a href="#home" class="scroll-link">Home</a></li>
 			  <li><a href="#aboutUs" class="scroll-link">About Me</a></li>
 			  <li><a href="#service" class="scroll-link">Our Services	</a></li>
 			  <li><a href="#Portfolio" class="scroll-link">Gallery</a></li> 
@@ -50,7 +50,9 @@
 
 
   <!--Video Background-->
-  <div class="videobg">
+  
+  
+  <div class="videobg"  id="home">
     <div class="logoh">
       <img src="img/LOGOf.png" alt="Logo">
     </div> 
