@@ -27,6 +27,12 @@
         justify-content: center;
         overflow: hidden;
       }
+      .video-container2 {
+        position: absolute;
+        top: 200px;
+        left: 377px;
+        width: 100%;
+      }
     }
 
   
@@ -66,8 +72,8 @@
   
   .video-container2 {
     position: absolute;
-    top: 200px;
-    left: 377px;
+    top: 0;
+    left: 0;
     width: 100%;
   }
   

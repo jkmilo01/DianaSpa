@@ -177,16 +177,16 @@
           <h5>All</h5>
           </a></li>
         <li><a class="" href="#" data-filter=".nature">
-          <h5>Massage</h5>
+          <h5>Facial</h5>
           </a></li>
         <li><a class="" href="#" data-filter=".wildlife">
-          <h5>Reduce</h5>
+          <h5>Treatments</h5>
           </a></li>
         <li><a class="" href="#" data-filter=".citylife">
-          <h5>Make Over</h5>
+          <h5>Carboxytherapy</h5>
           </a></li>
         <li><a class="" href="#" data-filter=".animals">
-          <h5>Nature SPA</h5>
+          <h5>Plasma</h5>
           </a></li> 
       </ul>
     </div>
