@@ -2,6 +2,18 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600);
 
+
+
+
+@font-face{
+    font-family: chameleon;
+    src:url(../fonts/Chameleon\ Basic.ttf);
+}
+
+
+
+
+
 .videobg {
     position: relative;
     width: 100%;
@@ -27,6 +39,9 @@
         justify-content: center;
         overflow: hidden;
       }
+    .h1{
+        width: 43vh;
+    }
       
     }
 
@@ -73,9 +88,11 @@
   }
   
   .logoh, h1{
-      font-family:'Courier New', Courier, monospace
-      font-size: x-large;
-      width: 35vh;
+    font-family: chameleon;
+    font-size:90px; 
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    color: #bf7086;
+      width: 65vh;
       height: 35vh;
       display: flex;
       align-items:center;
