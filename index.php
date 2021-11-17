@@ -54,7 +54,7 @@
   
   <div class="videobg"  id="home">
     <div class="logoh">
-      <img src="img/LOGOf.png" alt="Logo">
+      <h1>Diana Spa</h1>
     </div> 
       <div class="video-container">
           <div class="color-overlay"></div>
