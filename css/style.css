@@ -92,13 +92,11 @@
     font-size:90px; 
     text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
     color: #bf7086;
-      width: 65vh;
-      height: 35vh;
-      display: flex;
-      align-items:center;
-      z-index: 2;
-      display: block;
-      text-align: center;
+    display: flex;
+    align-items:center;
+    z-index: 2;
+    display: block;
+    text-align: center;
   }
 
 /*
