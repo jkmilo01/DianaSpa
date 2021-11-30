@@ -144,7 +144,7 @@ document.getElementById('arbolito').onclick = function() {
 // LANGUAGE SELECTOR
 //******************************************/
 
-$('[lang="es"]').hide();
+$('[lang="en"]').hide();
 
 $('.switch-lang').click(function() {
   $('[lang="es"]').toggle();
