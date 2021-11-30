@@ -139,3 +139,16 @@ document.getElementById('arbolito').onclick = function() {
     section.className = 'wow lightSpeedIn';
     this.parentNode.insertBefore(section, this);
 };
+
+//******************************************/
+// LANGUAGE SELECTOR
+//******************************************/
+
+$('[lang="es"]').hide();
+
+$('.switch-lang').click(function() {
+  $('[lang="es"]').toggle();
+  $('[lang="en"]').toggle();
+});
+
+//******************************************/
