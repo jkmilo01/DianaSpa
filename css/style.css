@@ -7,10 +7,6 @@
     src: url(../fonts/Chameleon\ Basic.ttf);
 }
 
-
-
-
-
 .videobg {
     position: relative;
     width: 100%;
@@ -26,22 +22,6 @@
     top: 0;
     left: 0;
     width: 100%;
-}
-
-@media (max-width: 767px) {
-    .videobg {
-        width: auto;
-        height: 90vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-    }
-
-    .h1 {
-        width: 43vh;
-    }
-
 }
 
 
@@ -95,16 +75,6 @@
     display: block;
     text-align: center;
 }
-
-/*
-Author URI: http://webthemez.com/
-Note: 
-Licence under Creative Commons Attribution 3.0 
--------------------------------------------------------*/
-
-
-@import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
-@import url(http://fonts.googleapis.com/css?family=Signika:400,600);
 
 /* Reset
 ---------------------------------*/
@@ -483,10 +453,6 @@ p {
     margin: 0 5px;
 }
 
-.navStyle ul li:first-child {
-    /*margin:0px;*/
-}
-
 .navStyle ul li:last-child {
     margin: 0 0 0 23px;
 }
@@ -515,12 +481,17 @@ p {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
-    color: #FFFFFF;
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #7ab8b9;
     background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-    color: #FFD688;
+    color: #7ab8b9;
     background-color: transparent;
     border-radius: 4px;
 }
@@ -755,8 +726,6 @@ div#main-nav {
 .service_wrapper {
     padding: 40px 0 40px;
 }
-
-.service_section {}
 
 .service_block {
     text-align: center;
@@ -1099,9 +1068,6 @@ img {
     background-position-y: 70px;
 }
 
-#about-us, h2, h3, h6, p {
-    /* color: #0A1525; */
-}
 
 #about-us .read-more {
     border: 1px solid #ED5441;
@@ -1119,8 +1085,6 @@ img {
     background-position: right;
     background-size: auto 100%;
 }
-
-.about-us {}
 
 .about-us h3 {
     font-size: 28px;
@@ -2142,9 +2106,8 @@ div.mc-image {
     bottom: 40px;
     padding: 10px 20px;
     text-indent: 0px;
-    moz-border-radius: 0px;
-    -webkit-border-radius: 0px;
     border-radius: 0px;
+    -webkit-border-radius: 0px;    
     z-index: 1000;
     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=1);
@@ -2441,6 +2404,7 @@ div.mc-image {
     border-radius: 8px;
     overflow: hidden;
     -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+    mask-image: radial-gradient(circle,white,black);
 }
 
 .news-content .news-media a:hover img {
@@ -2480,6 +2444,14 @@ div.mc-image {
     box-shadow: 4px 4px 0 #bbb, 8px 8px 0 #ddd;
 }
 
+.switch-lang{
+    background-color: #7ab8b9;   
+    color:#fff; 
+}
+
+.switch-lang:hover{
+    color: #1b1d20
+}
 /*
    Media Queries
 --------------------------- */
@@ -2620,6 +2592,10 @@ div.mc-image {
         float: right;
     }
 
+    .navbar-nav {
+        margin: 7.5px 0px;
+    }
+
     .navStyle ul li {
         display: block;
         margin: 0px;
@@ -2633,6 +2609,19 @@ div.mc-image {
         color: #D0D0D0;
         font-size: 14px;
         padding: 10px 11px;
+    }
+
+    .videobg {
+        width: auto;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .h1 {
+        width: 43vh;
     }
 }
 
@@ -2662,7 +2651,7 @@ div.mc-image {
 
     .read_more2 {
         display: none;
-    }
+    }    
 }
 
 section#experience {

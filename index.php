@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, maximum-scale=1">
-    <title>Diana | Spa</title>
+    <title>D Simple Body</title>
     <link rel="icon" href="favicon.png" type="image/png">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
@@ -50,8 +50,8 @@
 
                             <div class="col-md-1">
 
-                                <button class="btn btn-info btn-lg switch-lang" lang="en">Español</button>
-                                <button class="btn btn-info btn-lg switch-lang" lang="es">English</button>
+                                <button class="btn btn-lg switch-lang" lang="en">Español</button>
+                                <button class="btn btn-lg switch-lang" lang="es">English</button>
 
                             </div>
                         </div>
@@ -69,7 +69,7 @@
 
     <div class="videobg" id="home">
         <div class="logoh">
-            <h1>Diana Spa</h1>
+            <h1>D Simple Body</h1>
         </div>
         <div class="video-container">
             <div class="color-overlay"></div>
@@ -101,7 +101,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <h3>Diana Spa</h3>
+                            <h3>D Simple Body</h3>
                             <p>Lorem ipsum dolor sit amet, quo meis voluptaria, erant bonorum albucius et per, ei
                                 placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam
                                 voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum
