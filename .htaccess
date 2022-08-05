@@ -1,0 +1,12 @@
+RewriteEngine On
+# Redirect page.php to page
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(([A-Za-z0-9\-]+/)*[A-Za-z0-9\-]+)?$ $1.php
+# Redirect /?i=1 to https://www.dsimplebody.com/
+Redirect 301 /?i=1 https://www.dsimplebody.com/
+# Redirect http to https
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.dsimplebody.com/$1 [R,L] 
+RewriteCond %{QUERY_STRING} ^(.*)i=[^&]+(.*)$ [NC]
+RewriteRule ^(.*)$ /$1?%1%2 [R=301,L]
